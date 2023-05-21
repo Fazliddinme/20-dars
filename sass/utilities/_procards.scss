@@ -1,0 +1,10 @@
+@mixin procards{
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+}
+@mixin col25{
+    display: flex;
+    margin-top: 125px;
+    gap: 84px;
+}

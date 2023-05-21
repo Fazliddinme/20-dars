@@ -1,0 +1,43 @@
+@mixin btn{
+    cursor: pointer;
+    height: 43px;
+    width: 102px;
+    border-radius: 4px;    
+}
+@mixin buttn{
+    border-radius: 4px;
+    border: none;
+    height: 53px;
+    width: 175px;
+    margin-top: 60px;
+    cursor: pointer;
+    &:hover{
+        background-color: yellow;
+        color: #02897A;
+    }
+}
+@mixin ebtn{
+    background: #02897A;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
+    height: 53px;
+    cursor: pointer;
+    width: 216px;    
+    &:hover{
+        background-color: yellow;
+        color: #02897A;
+    }
+}
+@mixin sbtn{
+    background: #02897A;
+    border-radius: 8px;
+    padding: 11px 15px;
+    width: 139px;
+    height: 44px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: yellow;
+    }
+}

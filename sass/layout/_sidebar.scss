@@ -1,0 +1,32 @@
+@mixin sidebar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .leftbar a{
+        margin-left: 0;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        gap: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 28px;  
+        color: #173A56;      
+    }
+    .rightbar{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-left: 230px;
+    }
+    .rightbar a{
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+}
